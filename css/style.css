@@ -1,3 +1,158 @@
- body{
-    background-color: burlywood;
+ html{
+  scroll-behavior: smooth;
  }
+ 
+ body{
+   background-color: #1F2D28;
+   margin: 0;
+   font-family: sans-serif;
+ }
+
+ #caixa{
+   background-color: #0b0b0b;
+   width: 100vw;
+   height: 400px;
+   overflow: hidden;
+}
+
+#grid{
+   display: flex;
+}
+ 
+#titulo{
+   display: flex;
+   font-family: 'Times New Roman', Times, serif;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 20%;
+   margin-top: 150px;
+ }
+
+ #astronauta{
+   margin-top: 100px;
+   margin-left: 20%;
+   width: 200px;
+   height: 200px;
+ }
+
+ .nome{
+   margin: 0 ;
+   color: white;
+ }
+
+ #nome2{
+   margin-left: 25px;
+ }
+
+ nav{
+   width: 100vw;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: #8a8a8a;
+   height: 40px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ nav > a{
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  color: black;
+  padding: 2px;
+ }
+
+ nav a::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.4s ease-in-out;
+ }
+
+nav >a:hover::after {
+  width: 100%;
+}
+
+#quem{
+  background-color: #8a8a8a;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 20px;
+}
+
+#habilidades{
+  margin: 0 20px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #8a8a8a;
+  padding: 20px;
+  height: 20%;
+}
+
+#habilidades div{
+  background-color: rgb(99, 99, 99) ;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 15px;
+}
+
+#formacao{
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #8a8a8a;
+  padding-left: 15px;
+}
+
+#fo{
+  padding-bottom: 10px;
+}
+
+#projetos{
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #8a8a8a;
+  padding-left: 15px;
+  padding-top: 3px;
+}
+
+.proj{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.proj div{
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+#trabalhos{
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #8a8a8a;
+  padding-left: 15px;
+}
+
+#contatos{
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #8a8a8a;
+  padding-left: 15px;
+  
+}
+
+#icon{
+  display: flex;
+  justify-content: auto;
+}
+
+#icon a{
+  margin: 0 40px;
+}
+
+
