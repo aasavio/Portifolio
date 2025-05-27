@@ -123,8 +123,20 @@ nav >a:hover::after {
   margin: 0 20px;
   padding-left: 15px;
   padding-top: 3px;
+  margin-bottom: 20px;
 }
 
+#cert{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 30%;
+}
+
+#certificados img{
+  height: 40%;
+  width: 40%;
+}
 #projetos{
   margin: 0 20px;
   border-radius: 5px;
@@ -160,7 +172,7 @@ nav >a:hover::after {
 
 #icon{
   display: flex;
-  justify-content: auto;
+  justify-content: space-around;
 }
 
 #icon a{
