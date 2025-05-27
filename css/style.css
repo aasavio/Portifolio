@@ -179,4 +179,14 @@ nav >a:hover::after {
   margin: 0 40px;
 }
 
+#curriculo{
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #C0C0C0;
+  padding-left: 15px;
+}
 
+#curriculo h1{
+  font-size: 33px;
+  color: black;
+}
